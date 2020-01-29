@@ -20,17 +20,17 @@
 
 		<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 				<ul class="nav nav-pills my-1" id="pills-tab" role="tablist">
-					  <li class="nav-item mx-4">
-				    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+					  <li class="nav-item">
+				    <a href="#home" class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
 				  </li>
-					  <li class="nav-item mx-4">
-				    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+					  <li class="nav-item">
+				    <a href="profile" class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
 				  </li>
-					  <li class="nav-item mx-4">
-				    <a class="nav-link" id="pills-certificates-tab" data-toggle="pill" href="#pills-certificates" role="tab" aria-controls="pills-certificates" aria-selected="false">Certificates</a>
+					  <li class="nav-item">
+				    <a href="certificates" class="nav-link" id="pills-certificates-tab" data-toggle="pill" href="#pills-certificates" role="tab" aria-controls="pills-certificates" aria-selected="false">Certificates</a>
 				  </li>
-					  <li class="nav-item mx-4">
-				    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+					  <li class="nav-item">
+				    <a href="contact" class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
 				  </li>
 				</ul>
 				<div class="tab-content" id="pills-tabContent">
@@ -43,20 +43,36 @@
 	</nav>
 
 	<main>
-		<div class="home">
-			<div class="jumbotron" style="background-color: rgba(255, 255, 255, 0);">
-				<h2 class="display-4">Hello, I`m Dmitriy Chiruk.</h2>
+		<div id="home">			
+			<div class="jumbotron m-auto">
+				<img src="img/profile-photo.jpg" class="img-fluid flex-column" alt="Responsive image">
+				<div class="jumb-text d-flex flex-column">
+					<h2>Hello, I`m Dmitriy Chiruk.</h2>
+					<p class="lead">I`m a novice programmer from Kharkov. On this website you can see some info about me, and different ways to contact me</p>
+ 	 				<hr>
+  					<div class="d-flex">
+	  					<p class="flex-fill px-auto">Gmail</p>
+	  					<p class="flex-fill px-auto">Facebook</p>
+	  					<p class="flex-fill px-auto">Github</p>
+	  					<p class="flex-fill px-auto">Skype</p>
+  					</div>
+				</div>
+				
 			</div>
 		</div>
-		<div class="profile">
-			<h2>HI</h2>
+
+		<div id="profile">
+			<div class="bg-light">
+				<h3>About</h3>
+				<p></p>
+			</div>
 		</div>
-		<div class="certificates"></div>
-		<div class="contact"></div>
+		<div id="certificates"></div>
+		<div id="contact"></div>
 	</main>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script async src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>

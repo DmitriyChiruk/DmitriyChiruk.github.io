@@ -2,16 +2,50 @@ html, body{
 	width: 100%;
 	height: 100%;
 }
+.nav-item{
+	margin-right: auto;
+	margin-left: auto;
+}
 .nav-item:hover {
 	background-color: #c5ddfc;
 	border-radius: 3px;
 }
-.home{
+#home{
+	z-index: 0;
 	width: 100%;
 	height: 100vh;
 	background: url(https://i.ytimg.com/vi/hYMaQPs_e60/maxresdefault.jpg) no-repeat 50%;
   background-size: cover;
 }
 .jumbotron{
+	position: absolute;
 	width: 60%;
+	height: 60vh;
+	top: 20%;
+	left: 20%;
+	padding: auto;
+	background-color: rgba(154, 223, 237, 0.6);
+	border: 3px solid #9adfed;
+	text-align: center;
+}
+.jumbotron hr{
+	color: #00000;
+	width: 2px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.jumbotron p{
+	font-size: 1.5vw;
+}
+.jumbotron h2{
+	font-size: 2vw;
+}
+.jumbotron .img-fluid{
+	max-height: 25vh;
+	border-radius: 50%;
+}
+.jumbotron .jumb-text{
+	position: absolute;
+	bottom: 0;
+	max-height: 30vh;
 }
